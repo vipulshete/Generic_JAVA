@@ -12,14 +12,14 @@ public class SortExample {
 	}
 	
 	private static void sortIntegerList() {
-		List<Integer> integerList = new ArrayList<>();
+		List<Double> integerList = new ArrayList<>();
 		
-		integerList.add(35);
-		integerList.add(67);
-		integerList.add(12);
-		integerList.add(17);
-		integerList.add(9);
-		integerList.add(88);
+		integerList.add(35.31);
+		integerList.add(67.22);
+		integerList.add(12.25);
+		integerList.add(17.25);
+		integerList.add(9.14);
+		integerList.add(88.41);
 		
 		System.out.println("Before sorting " + integerList);
 		
